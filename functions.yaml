@@ -1,0 +1,19 @@
+# functions.yaml
+# Specify the version (e.g., 2)
+version: 2
+# Define your Cloud Functions
+functions:
+  auth:
+    handler: auth
+    memory: 256MB
+    timeout: 10s
+  callback:
+    handler: callback
+    memory: 256MB
+    timeout: 10s
+  tweet:
+    handler: tweet
+    memory: 256MB
+    timeout: 10s
+# Other configuration options (optional)
+# ...
